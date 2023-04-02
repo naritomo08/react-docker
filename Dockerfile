@@ -13,8 +13,5 @@ RUN npm install
 # アプリケーションのソースコードをコピーする
 COPY . .
 
-# アプリケーションをビルドする
-# RUN npm run build
-
 # 開発用サーバーを実行する
 CMD ["npm", "start"]
