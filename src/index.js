@@ -1,13 +1,4 @@
-import ReactDOM from "react-dom";
-import { Fragment } from "react";
+import { createRoot } from 'react-dom/client';
+import { App } from "./App";
 
-const App = () => {
-    return (
-        <Fragment>
-            <h1>こんにちは!</h1>
-            <p>お元気ですか？</p>
-        </Fragment>
-    );
-};
-
-ReactDOM.render(<App />, document.getElementById("root"));
+createRoot(document.getElementById('root')).render(<App />);
