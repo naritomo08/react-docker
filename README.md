@@ -17,6 +17,15 @@ git clone https://github.com/naritomo08/react-docker.git
 cd react-docker
 ```
 
+### 環境変数ファイル作成
+
+```bash
+vi env.development.local
+
+以下の内容で作成する。
+REACT_APP_BURL = "http://localhost:8000"
+```
+
 ### コンテナ立ち上げ
 
 ```bash
